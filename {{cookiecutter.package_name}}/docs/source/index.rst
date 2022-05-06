@@ -1,8 +1,12 @@
 {{cookiecutter.package_name_stylized}} |release| Documentation
 {{'=' * (cookiecutter.package_name_stylized|length)}}========================
 
-Cookiecutter
-------------
+.. mdinclude:: ../../README.md
+    :start-line: 10
+    :end-line: -73
+
+🍪 Cookiecutter
+---------------
 This package was created with the `cookiecutter <https://github.com/cookiecutter/cookiecutter>`_
 package using `cookiecutter-snekpack <https://github.com/cthoyt/cookiecutter-snekpack>`_ template.
 It comes with the following:
