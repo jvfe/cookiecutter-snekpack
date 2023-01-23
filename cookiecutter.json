@@ -1,11 +1,11 @@
 {
-  "package_name": "",
-  "package_name_stylized": "",
-  "short_description": "",
-  "author_name": "",
-  "author_email": "",
-  "github_organization_name": "",
-  "github_repository_name": "",
+  "package_name": "test_package",
+  "package_name_stylized": "Test Package",
+  "short_description": "A simple Python package",
+  "author_name": "John Doe",
+  "author_email": "johndoe@aol.com",
+  "github_organization_name": "johndoe",
+  "github_repository_name": "test_package",
   "command_line_interface": false,
   "open_source_license": [
     "MIT license",
