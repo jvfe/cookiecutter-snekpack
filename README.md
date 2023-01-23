@@ -25,7 +25,7 @@ I've written several blog posts outlining all of the ideas that made it into thi
 2. Run `cookiecutter` with:
 
    ```shell
-   $ cookiecutter https://github.com/jvfe/cookiecutter-snekpack
+   $ cookiecutter https://github.com/jvfe/cookiecutter-snekpack -c jvfe-changes
    ```
 
 3. Enter the requested information, then win! Remember, package names should only have letters, numbers,
