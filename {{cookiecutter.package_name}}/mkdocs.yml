@@ -3,6 +3,8 @@ site_description: { { cookiecutter.short_description } }
 site_author: { { cookiecutter.author_name } }
 nav:
   - Home: index.md
+  - Contributing: contributing.md
+  - Code of Conduct: code_of_conduct.md
   - Reference:
       - Count: reference/count.md
 repo_url: https://github.com/{{cookiecutter.github_organization_name}}/{{cookiecutter.github_repository_name}}
