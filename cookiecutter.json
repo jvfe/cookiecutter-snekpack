@@ -1,10 +1,18 @@
 {
-    "package_name": "",
-    "package_name_stylized": "",
-    "short_description": "",
-    "author_name": "",
-    "author_email": "",
-    "github_organization_name": "",
-    "github_repository_name": "",
-    "command_line_interface": true
+  "package_name": "",
+  "package_name_stylized": "",
+  "short_description": "",
+  "author_name": "",
+  "author_email": "",
+  "github_organization_name": "",
+  "github_repository_name": "",
+  "command_line_interface": false,
+  "open_source_license": [
+    "MIT license",
+    "BSD license",
+    "ISC license",
+    "Apache Software License 2.0",
+    "GNU General Public License v3",
+    "Not open source"
+  ]
 }
