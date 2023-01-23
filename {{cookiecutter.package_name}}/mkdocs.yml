@@ -1,0 +1,13 @@
+site_name: { { cookiecutter.package_name_stylized } }
+site_description: { { cookiecutter.short_description } }
+site_author: { { cookiecutter.author_name } }
+nav:
+  - Home: index.md
+  - Reference:
+      - Count: reference/count.md
+repo_url: https://github.com/{{cookiecutter.github_organization_name}}/{{cookiecutter.github_repository_name}}
+theme:
+  name: "readthedocs"
+plugins:
+  - search
+  - mkdocstrings

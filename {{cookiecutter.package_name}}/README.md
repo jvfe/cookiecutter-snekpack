@@ -43,7 +43,7 @@
 ## 💪 Getting Started
 
 > TODO show in a very small amount of space the **MOST** useful thing your package can do.
-Make it as short as possible! You have an entire set of docs for later.
+> Make it as short as possible! You have an entire set of docs for later.
 
 {% if cookiecutter.command_line_interface|lower != "false" %}### Command Line Interface
 
@@ -54,9 +54,9 @@ be used from the shell with the `--help` flag to show all subcommands:
 $ {{cookiecutter.package_name}} --help
 ```
 
-> TODO show the most useful thing the CLI does! The CLI will have documentation auto-generated
-by `sphinx`.
-{% endif %}
+> TODO show the most useful thing the CLI does!
+> {% endif %}
+
 ## 🚀 Installation
 
 <!-- Uncomment this section after your first ``tox -e finish``
@@ -121,7 +121,6 @@ This package was created with [@audreyfeldroy](https://github.com/audreyfeldroy)
 <details>
   <summary>See developer instructions</summary>
 
-
 The final section of the README is for if you want to get involved by making a code contribution.
 
 ### Development Installation
@@ -145,22 +144,6 @@ $ tox
 
 Additionally, these tests are automatically re-run with each commit in a [GitHub Action](https://github.com/{{cookiecutter.github_organization_name}}/{{cookiecutter.github_repository_name}}/actions?query=workflow%3ATests).
 
-### 📖 Building the Documentation
-
-The documentation can be built locally using the following:
-
-```shell
-$ git clone git+https://github.com/{{cookiecutter.github_organization_name}}/{{cookiecutter.github_repository_name}}.git
-$ cd {{cookiecutter.github_repository_name}}
-$ tox -e docs
-$ open docs/build/html/index.html
-``` 
-
-The documentation automatically installs the package as well as the `docs`
-extra specified in the [`setup.cfg`](setup.cfg). `sphinx` plugins
-like `texext` can be added there. Additionally, they need to be added to the
-`extensions` list in [`docs/source/conf.py`](docs/source/conf.py).
-
 ### 📦 Making a Release
 
 After installing the package in development mode and installing
@@ -180,5 +163,5 @@ This script does the following:
    step
 4. Push to GitHub. You'll need to make a release going with the commit where the version was bumped.
 5. Bump the version to the next patch. If you made big changes and want to bump the version by minor, you can
-   use `tox -e bumpversion minor` after.
+use `tox -e bumpversion minor` after.
 </details>
