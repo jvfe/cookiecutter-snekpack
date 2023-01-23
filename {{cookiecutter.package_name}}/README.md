@@ -83,7 +83,7 @@ Contributions, whether filing an issue, making a pull request, or forking, are a
 
 ### ⚖️ License
 
-The code in this package is licensed under the MIT License.
+The code in this package is licensed under the {{cookiecutter.open_source_license}}.
 
 <!--
 ### 📖 Citation
