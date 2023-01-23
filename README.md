@@ -46,7 +46,6 @@ Your new python package will have the following:
 - Documentation build with `mkdocs` and `mkdocstrings`
 - Testing of code quality with `flake8` in `tox`
 - Testing of package metadata completeness with `pyroma` in `tox`
-- Testing of MANIFEST correctness with `check-manifest` in `tox`
 - Testing of optional static typing with `mypy` in `tox`
 - A `py.typed` file so other packages can use your type hints
 - Automated running of tests on each push with GitHub Actions
