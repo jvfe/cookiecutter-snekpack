@@ -10,4 +10,4 @@ def count(n: int) -> List[int]:
     Returns:
         List[int]: A list of numbers from 0 until n
     """
-    return list(range(0, n+1))
+    return list(range(0, n + 1))
