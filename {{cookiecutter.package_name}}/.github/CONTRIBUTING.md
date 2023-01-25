@@ -31,17 +31,14 @@ acceptance and merge into the main branch. This has several benefits:
 ### Code Style
 
 This project encourages the use of optional static typing. It
-uses [`mypy`](http://mypy-lang.org/) as a type checker
-and [`sphinx_autodoc_typehints`](https://github.com/agronholm/sphinx-autodoc-typehints)
-to automatically generate documentation based on type hints. You can check if
-your code passes `mypy` with `tox -e mypy`.
+uses [`mypy`](http://mypy-lang.org/) as a type checker.
 
 This project uses [`black`](https://github.com/psf/black) to automatically
 enforce a consistent code style. You can apply `black` and other pre-configured
 linters with `tox -e lint`.
 
 This project uses [`flake8`](https://flake8.pycqa.org) and several plugins for
-additional checks of documentation style, security issues, good variable
+additional checks of security issues, good variable
 nomenclature, and more (
 see [`tox.ini`](tox.ini) for a list of flake8 plugins). You can check if your
 code passes `flake8` with `tox -e flake8`.
@@ -62,24 +59,11 @@ you're in a command line setting or `main()` function for a module, you can use
 `logger = logging.getLogger(__name__)` below the imports at the top of your
 file.
 
-### Documentation
-
-All public functions (i.e., not starting with an underscore `_`) must be
-documented using the [sphinx documentation format](https://sphinx-rtd-tutorial.readthedocs.io/en/latest/docstrings.html#the-sphinx-docstring-format).
-The [`darglint`](https://github.com/terrencepreilly/darglint) plugin to `flake8`
-reports on functions that are not fully documented.
-
-This project uses [`sphinx`](https://www.sphinx-doc.org) to automatically build
-documentation into a narrative structure. You can check that the documentation
-builds properly in an isolated environment with `tox -e docs-test` and actually
-build it locally with `tox -e docs`.
-
 ### Testing
 
 Functions in this repository should be unit tested. These can either be written
 using the `unittest` framework in the `tests/` directory or as embedded
-doctests. You can check that the unit tests pass with `tox -e py` and that the
-doctests pass with `tox -e doctests`. These tests are required to pass for
+doctests. You can check that the unit tests pass with `tox -e py`. These tests are required to pass for
 accepting a contribution.
 
 ### Syncing your fork
@@ -105,7 +89,7 @@ configuration.
 See https://endoflife.date/python for a timeline of Python release and
 end-of-life dates.
 
-## Acknowledgements 
+## Acknowledgements
 
 These code contribution guidelines are derived from the [cthoyt/cookiecutter-snekpack](https://github.com/cthoyt/cookiecutter-snekpack)
 Python package template. They're free to reuse and modify as long as they're properly acknowledged.

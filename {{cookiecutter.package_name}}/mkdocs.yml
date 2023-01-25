@@ -1,6 +1,6 @@
-site_name: { { cookiecutter.package_name_stylized } }
-site_description: { { cookiecutter.short_description } }
-site_author: { { cookiecutter.author_name } }
+site_name: {{cookiecutter.package_name_stylized}}
+site_description: {{cookiecutter.short_description}}
+site_author: {{cookiecutter.author_name}}
 nav:
   - Home: index.md
   - Contributing: contributing.md
