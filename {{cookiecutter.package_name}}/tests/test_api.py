@@ -4,7 +4,7 @@
 
 import unittest
 
-from {{cookiecutter.package_name}}.count import count
+from {{cookiecutter.package_name}} import count
 
 
 class TestCount(unittest.TestCase):

@@ -6,7 +6,7 @@ nav:
   - Contributing: contributing.md
   - Code of Conduct: code_of_conduct.md
   - Reference:
-      - Count: reference/count.md
+      - API: reference/api.md
 repo_url: https://github.com/{{cookiecutter.github_organization_name}}/{{cookiecutter.github_repository_name}}
 theme:
   name: "readthedocs"
