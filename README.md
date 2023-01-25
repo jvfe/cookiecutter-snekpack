@@ -7,7 +7,7 @@ This template is different from [@audreyfeldroy](https://github.com/audreyfeldro
 layout and has lots of code quality assurance checks built in. If you're looking for something similar but not quite
 like this, try her package or see her [list of alternatives](https://cookiecutter-pypackage.readthedocs.io/en/latest/readme.html#similar-cookiecutter-templates).
 
-I've written several blog posts outlining all of the ideas that made it into this template:
+[@cthoyt](https://github.com/cthoyt/)'s written several blog posts outlining all of the ideas that made it into this template:
 
 - [Blog: Flake8](https://cthoyt.com/2020/04/25/how-to-code-with-me-flake8)
 - [Blog: Packaging](https://cthoyt.com/2020/06/03/how-to-code-with-me-organization)
@@ -52,7 +52,7 @@ Your new python package will have the following:
 - Configuration for [ReadTheDocs](https://readthedocs.org/)
 - A good base `.gitignore` generated from [gitignore.io](https://gitignore.io).
 - A pre-formatted README with badges
-- A pre-formatted LICENSE file with the a choice of open-source licenses (you can change this to whatever you want, though)
+- A pre-formatted LICENSE file with a choice of open-source licenses
 - A pre-formatted CONTRIBUTING guide
 - Automatic tool for releasing to PyPI with `tox -e finish`
 - A copy of the [Contributor Covenant](https://www.contributor-covenant.org/) as a basic code of conduct
